@@ -1,0 +1,5 @@
+#!/bin/zsh
+make clean >/dev/null 2>/dev/null
+rm -r CMakeCache.txt cmake_install.cmake CMakeFiles src/CMakeFiles Makefile
+rm -r bin
+mkdir bin
